@@ -54,6 +54,12 @@ p {
   line-height: 1.5;
   text-align: center;
   color: var(--primary-color);
+  }
+
+video {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
 }
 
 .social-network {
