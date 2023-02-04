@@ -69,7 +69,7 @@ p {
 
 .learn-more:hover,
 .primary-link:hover,
-.social-network {
+.social-network:hover {
   color: var(--secondary-color);
   text-decoration: underline;
 }
