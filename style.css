@@ -191,7 +191,6 @@ p {
 }
 
 .page-built {
-  
   color: var(--secondary-color);
   font-size: 18px;
   text-decoration: none;
@@ -210,7 +209,7 @@ p {
 
   .page-built {
     display: flex;
-  justify-content: center;
+    justify-content: center;
   }
 
   .about-paragraphs {
