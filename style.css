@@ -56,13 +56,6 @@ p {
   color: var(--primary-color);
   }
 
-video {
-  max-width: 85%;
-  margin: 0 auto 30px auto;
-  display: block;
-  border-radius: var(--border-radius);
-}
-
 .social-network {
   color: rgb(255, 255, 255);
 }
