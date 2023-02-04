@@ -60,6 +60,7 @@ video {
   max-width: 85%;
   margin: 0 auto;
   display: block;
+  border-radius: var(--border-radius);
 }
 
 .social-network {
