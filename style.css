@@ -208,6 +208,11 @@ p {
     text-align: center;
   }
 
+  .page-built {
+    display: flex;
+  justify-content: center;
+  }
+
   .about-paragraphs {
     text-align: center;
   }
