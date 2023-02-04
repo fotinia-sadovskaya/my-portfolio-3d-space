@@ -61,7 +61,7 @@ p {
 }
 
 .social-network:hover {
-    color: var(--accent-color);
+    color: var(--primary-color);
 }
 
 .learn-more,
