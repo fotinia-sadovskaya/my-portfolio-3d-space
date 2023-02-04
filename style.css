@@ -56,10 +56,6 @@ p {
   color: var(--primary-color);
 }
 
-.hero {
-    padding: 160px;
-}
-
 .social-network {
   color: rgb(255, 255, 255);
 }
