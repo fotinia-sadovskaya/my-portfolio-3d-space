@@ -68,7 +68,8 @@ p {
 }
 
 .learn-more:hover,
-.primary-link:hover {
+.primary-link:hover,
+.social-network {
   color: var(--secondary-color);
   text-decoration: underline;
 }
