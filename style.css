@@ -58,7 +58,7 @@ p {
 
   .hero{
     background: var(--accent-color);
-    padding: 200px 20px 100px 20px;
+    padding: 200px 20px;
     
   }
 
@@ -85,8 +85,8 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
-  margin-bottom: 200px;
+  margin-top: 40px auto;
+  
   justify-content: center;
 }
 
