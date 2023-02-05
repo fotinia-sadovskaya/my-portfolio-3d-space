@@ -62,7 +62,7 @@ p {
     
   }
 
-  .about-me {
+  .about-me, .project-main {
     padding: 100px 20px;
   }
 
