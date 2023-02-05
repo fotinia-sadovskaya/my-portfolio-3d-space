@@ -58,27 +58,26 @@ p {
   color: var(--primary-color);
   }
 
-  video {
+video {
   max-width: 50%;
   margin: 0 auto;
   display: block;
   border-radius: var(--border-radius);
 }
 
-  .hero{
-    background: var(--accent-color);
+.hero {
+  background: var(--accent-color);
     margin: 40px auto;
     padding: 200px 20px;
-    
-  }
+}
 
-  .about-me, .project-main {
-    padding: 100px 20px;
-  }
+.about-me, .project-main {
+  padding: 100px 20px;
+}
 
-  .images, .video {
-    margin: 50px auto;
-  }
+.images, .video {
+ margin: 50px auto;
+}
 
 .social-network {
   color: rgb(255, 255, 255);
@@ -231,10 +230,17 @@ p {
     text-align: center;
   }
 
+  video {
+    max-width: 100%;
+  }
+
   .hero{
     padding: 100px 20px 200px 20px;
   }
 
+  .steampunkShip {
+    max-width: 100%;
+  }
 
   .page-built {
     display: flex;
