@@ -57,7 +57,7 @@ p {
   }
 
   video {
-  max-width: 85%;
+  max-width: 50%;
   margin: 0 auto;
   display: block;
   border-radius: var(--border-radius);
