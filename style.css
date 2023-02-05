@@ -67,8 +67,8 @@ p {
 
   .hero{
     background: var(--accent-color);
-    margin: 140px auto;
-    padding: 100px 20px;
+    margin: 40px auto;
+    padding: 200px 20px;
     
   }
 
