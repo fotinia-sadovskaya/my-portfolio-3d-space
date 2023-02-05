@@ -231,6 +231,11 @@ p {
     text-align: center;
   }
 
+  .hero{
+    padding: 100px 20px 200px 20px;
+  }
+
+
   .page-built {
     display: flex;
     justify-content: center;
