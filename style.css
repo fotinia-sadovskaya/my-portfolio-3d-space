@@ -177,7 +177,7 @@ p {
 .steampunkShip {
   display: block;
   margin: 30px auto;
-  max-width: 85%;
+  max-width: 75%;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
