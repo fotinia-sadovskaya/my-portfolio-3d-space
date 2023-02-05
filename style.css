@@ -4,10 +4,12 @@
   --accent-color: #eed9b5;
   --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   --border-radius: 10px;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Roboto", sans-serif;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--default-font-family);
   
   max-width: 100%;
   background: linear-gradient(
@@ -32,7 +34,7 @@ h5 {
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
   font-size: 64px;
   font-weight: bold;
 }
