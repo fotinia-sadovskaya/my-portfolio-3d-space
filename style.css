@@ -56,6 +56,13 @@ p {
   color: var(--primary-color);
   }
 
+  video {
+  max-width: 85%;
+  margin: 0 auto;
+  display: block;
+  border-radius: var(--border-radius);
+}
+
   .hero{
     background: var(--accent-color);
     padding: 200px 20px;
@@ -64,6 +71,10 @@ p {
 
   .about-me, .project-main {
     padding: 100px 20px;
+  }
+
+  .images, .video {
+    margin: 50px auto;
   }
 
 .social-network {
