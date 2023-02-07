@@ -10,7 +10,7 @@
 
 body {
   font-family: var(--default-font-family);
-  
+
   max-width: 100%;
   background: linear-gradient(
     to right,
@@ -56,7 +56,7 @@ p {
   line-height: 1.5;
   text-align: center;
   color: var(--primary-color);
-  }
+}
 
 video {
   max-width: 50%;
@@ -67,16 +67,19 @@ video {
 
 .hero {
   background: var(--accent-color);
-    margin: 40px auto;
-    padding: 200px 20px;
+  margin: 40px auto;
+  padding: 200px 20px;
 }
 
-.about-me, .project-main {
-  padding: 100px 20px;
+.about-me,
+.project-main,
+.contact-me {
+  padding: 100px 20px 50px;
 }
 
-.images, .video {
- margin: 50px auto;
+.images,
+.video {
+  margin: 50px auto;
 }
 
 .social-network {
@@ -103,7 +106,7 @@ video {
 .navigation-links {
   display: flex;
   margin-top: 40px auto;
-  
+
   justify-content: center;
 }
 
@@ -234,7 +237,7 @@ video {
     max-width: 100%;
   }
 
-  .hero{
+  .hero {
     padding: 100px 20px 150px 20px;
   }
 
