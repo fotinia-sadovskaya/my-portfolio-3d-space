@@ -67,7 +67,8 @@ video {
 }
 
 .navbar {
- background-color: var(--primary-color) !important;
+  background-color: var(--primary-color) !important;
+  box-shadow: var(--box-shadow) !important;
 }
 
 .hero {
@@ -87,12 +88,13 @@ video {
   margin: 50px auto;
 }
 
-.active, .navbar-brand {
-color: var(--accent-color) !important; 
+.active,
+.navbar-brand {
+  color: var(--accent-color) !important;
 }
 
 .social-network {
- color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .social-network:hover {
