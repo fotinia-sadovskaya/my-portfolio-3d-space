@@ -65,7 +65,7 @@ video {
   border-radius: var(--border-radius);
 }
 
-li {
+.nav-item {
   text-align: right;
 }
 
