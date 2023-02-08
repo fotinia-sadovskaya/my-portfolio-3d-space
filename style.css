@@ -82,12 +82,12 @@ video {
   margin: 50px auto;
 }
 
-.active, .navbar-brand a, .social-network a {
+.active, .navbar-brand a {
 color: var(--accent-color) !important; 
 }
 
 .social-network {
-  color: white;
+ color: var(--accent-color);
 }
 
 .social-network:hover {
