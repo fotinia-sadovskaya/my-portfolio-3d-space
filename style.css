@@ -82,6 +82,10 @@ video {
   margin: 50px auto;
 }
 
+.bg-dark {
+  color: var(--primary-color) !important; 
+}
+
 .active, .navbar-brand {
 color: var(--accent-color) !important; 
 }
