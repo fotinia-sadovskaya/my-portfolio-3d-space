@@ -65,6 +65,10 @@ video {
   border-radius: var(--border-radius);
 }
 
+ul {
+  text-align: end;
+}
+
 .hero {
   background: var(--accent-color);
   margin: 40px auto;
