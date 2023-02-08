@@ -82,7 +82,7 @@ video {
   margin: 50px auto;
 }
 
-.active, .navbar-brand a {
+.active, .navbar-brand {
 color: var(--accent-color) !important; 
 }
 
