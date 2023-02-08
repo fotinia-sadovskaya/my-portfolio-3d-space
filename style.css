@@ -65,6 +65,10 @@ video {
   border-radius: var(--border-radius);
 }
 
+.navbar {
+ color: var(--accent-color) !important; 
+}
+
 .hero {
   background: var(--accent-color);
   margin: 40px auto;
