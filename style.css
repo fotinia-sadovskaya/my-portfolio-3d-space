@@ -82,7 +82,7 @@ video {
   margin: 50px auto;
 }
 
-.navbar-dark {
+.navbar-dark, .bg-dark {
   color: var(--primary-color) !important; 
 }
 
