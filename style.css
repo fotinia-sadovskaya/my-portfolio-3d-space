@@ -95,7 +95,7 @@ color: var(--accent-color) !important;
 }
 
 .social-network:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .learn-more,
