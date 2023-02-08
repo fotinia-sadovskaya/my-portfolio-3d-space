@@ -125,7 +125,7 @@ color: var(--accent-color) !important;
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--accent-color);
 }
 
 .contact-link:hover {
