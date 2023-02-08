@@ -68,7 +68,6 @@ video {
 
 .navbar {
  background-color: var(--primary-color) !important;
- box-shadow: var(--box-shadow) !important; 
 }
 
 .hero {
