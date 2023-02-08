@@ -211,9 +211,12 @@ video {
   max-width: 150px;
 }
 
+.project {
+box-shadow: var(--box-shadow) !important;
+}
+
 .rounded {
   border-radius: var(--border-radius) !important;
-  box-shadow: var(--box-shadow) !important;
 }
 
 .brief {
