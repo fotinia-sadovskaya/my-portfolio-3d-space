@@ -212,7 +212,7 @@ video {
 }
 
 .project {
-box-shadow: var(--box-shadow) !important;
+  box-shadow: var(--box-shadow) !important;
 }
 
 .rounded {
