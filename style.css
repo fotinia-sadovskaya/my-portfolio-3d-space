@@ -213,6 +213,7 @@ video {
 
 .rounded {
   border-radius: var(--border-radius) !important;
+  box-shadow: var(--box-shadow);
 }
 
 .brief {
