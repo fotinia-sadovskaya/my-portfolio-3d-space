@@ -82,8 +82,12 @@ video {
   margin: 50px auto;
 }
 
+.active {
+color: var(--accent-color);
+}
+
 .social-network {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .social-network:hover {
