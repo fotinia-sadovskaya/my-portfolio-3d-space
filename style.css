@@ -58,10 +58,6 @@ p {
   color: var(--primary-color);
 }
 
-img {
-  box-shadow: var(--box-shadow);
-}
-
 video {
   max-width: 50%;
   margin: 0 auto;
