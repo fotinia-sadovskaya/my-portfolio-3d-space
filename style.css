@@ -302,4 +302,8 @@ video {
     color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
   }
+
+  .social-network-link {
+    font-size: 16px;
+  }
 }
