@@ -93,12 +93,18 @@ video {
   color: var(--accent-color) !important;
 }
 
-.social-network {
+.social-network-link {
   color: var(--accent-color);
+  margin: 0 10px;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
 
-.social-network:hover {
+.social-network-link:hover {
   color: var(--secondary-color);
+  background: var(--accent-color);
+  padding: 4px 7px;
+  border-radius: 50%;
 }
 
 .learn-more,
