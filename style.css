@@ -139,6 +139,7 @@ video {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--accent-color);
+  transition: all 100ms ease-in-out;
 }
 
 .contact-link:hover {
@@ -150,6 +151,7 @@ video {
   color: var(--primary-color);
   box-shadow: var(--box-shadow);
   border: 1px solid var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
 
 .started-link:hover {
