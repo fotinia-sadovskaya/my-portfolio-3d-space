@@ -176,7 +176,8 @@ video {
 }
 
 .email-link,
-.behance-link {
+.behance-link,
+.vimeo-link {
   display: flex;
   justify-content: center;
   color: var(--secondary-color);
@@ -186,6 +187,7 @@ video {
 
 .email-link:hover,
 .behance-link:hover,
+.vimeo-link:hover,
 .page-built:hover {
   text-decoration: underline;
   color: var(--secondary-color);
