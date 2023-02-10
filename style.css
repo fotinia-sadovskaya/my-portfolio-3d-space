@@ -10,7 +10,7 @@
 
 body {
   font-family: var(--default-font-family);
-max-height: 100%;
+  max-height: 100%;
   max-width: 100%;
   background: linear-gradient(
     to right,
@@ -84,7 +84,7 @@ video {
 }
 
 .contact-me {
-  margin-bottom: 35px;
+  margin-bottom: 375px;
 }
 
 .images,
@@ -325,6 +325,5 @@ video {
   .email-link,
   .account-link {
     font-size: 18px;
-    
   }
 }
