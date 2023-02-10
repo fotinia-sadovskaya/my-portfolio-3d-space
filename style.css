@@ -10,7 +10,7 @@
 
 body {
   font-family: var(--default-font-family);
-
+max-height: 100%;
   max-width: 100%;
   background: linear-gradient(
     to right,
@@ -30,7 +30,7 @@ h4,
 h5 {
   color: var(--primary-color);
   text-align: center;
-  margin: 0;
+  margin-bottom: 15px;
 }
 
 h1 {
@@ -74,13 +74,17 @@ video {
 .hero {
   background: var(--accent-color);
   margin: 40px auto;
-  padding: 200px 20px;
+  padding: 100px 20px 200px;
 }
 
 .about-me,
 .project-main,
 .contact-me {
   padding: 100px 20px 50px;
+}
+
+.contact-me {
+  margin-bottom: 35px;
 }
 
 .images,
@@ -123,8 +127,7 @@ video {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px auto;
-
+  margin-top: 40px;
   justify-content: center;
 }
 
@@ -178,16 +181,20 @@ video {
 
 .email-link,
 .behance-link,
+.account-link,
 .vimeo-link {
   display: flex;
   justify-content: center;
   color: var(--secondary-color);
   font-size: 24px;
+  text-align: center;
+  line-height: 2;
   text-decoration: none;
 }
 
 .email-link:hover,
 .behance-link:hover,
+.account-link:hover,
 .vimeo-link:hover,
 .page-built:hover {
   text-decoration: underline;
@@ -254,8 +261,9 @@ video {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 48px;
-    line-height: 1.5;
+    font-size: 38px;
+    line-height: 1.2;
+    margin: 10px;
   }
 
   h2 {
@@ -312,5 +320,11 @@ video {
 
   .social-network-link {
     font-size: 16px;
+  }
+
+  .email-link,
+  .account-link {
+    font-size: 18px;
+    
   }
 }
