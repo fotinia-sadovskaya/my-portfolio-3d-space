@@ -201,12 +201,6 @@ video {
   color: var(--secondary-color);
 }
 
-.project:hover {
-  background-color: var(--accent-color);
-  color: white;
-  border-radius: var(--border-radius);
-}
-
 .steampunkShip {
   display: block;
   margin: 30px auto;
@@ -231,6 +225,14 @@ video {
 
 .project {
   box-shadow: var(--box-shadow) !important;
+}
+
+.project:hover {
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: var(--border-radius);
+  transform: scale(1.1);
+  transition: all 250ms ease-in-out;
 }
 
 .rounded {
