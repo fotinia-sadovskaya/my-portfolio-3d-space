@@ -73,6 +73,7 @@ video {
 
 .hero {
   background-image: url("../images/steampunkShip.png");
+  opacity: 0.5;
   background-repeat: no-repeat;
   background-size: cover;
 
