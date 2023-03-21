@@ -77,7 +77,7 @@ video {
   padding: 100px 20px 200px;
 
   background-image: url(steampunkShip.png);
-  filter: blur(10px);
+  ;
   background-repeat: no-repeat;
   background-size: cover;
 }
