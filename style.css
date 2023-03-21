@@ -74,9 +74,9 @@ video {
 .hero {
   background-image: url("images/steampunkShip.png");
   filter: blur(10px);
+  opacity: 0.6;
   margin: 40px auto;
   padding: 100px 20px 200px;
-  
 }
 
 .about-me,
