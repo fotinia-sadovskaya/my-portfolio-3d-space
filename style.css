@@ -23,7 +23,9 @@ body {
   );
 }
 
+h1,
 h2,
+h3,
 h4,
 h5 {
   color: var(--primary-color);
@@ -35,9 +37,6 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   font-weight: bold;
-  color: var(--accent-color);
-  text-align: center;
-  margin-bottom: 15px;
 }
 
 h2 {
@@ -47,9 +46,6 @@ h2 {
 h3 {
   font-size: 24px;
   opacity: 0.8;
-  color: var(--accent-color);
-  text-align: center;
-  margin-bottom: 15px;
 }
 
 p {
@@ -81,8 +77,10 @@ video {
   text-align: left;
 }
 
-h1,
-h3 {
+.hero h1,
+h2,
+h3,
+a {
   text-align: left;
   color: var(--accent-color);
 }
