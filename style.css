@@ -107,7 +107,7 @@ video {
   bottom: 0;
   z-index: -1;
   background: url("images/steampunkShip.png") center / cover no-repeat;
-  filter: blur(5px);
+  filter: blur(10px);
 }
 
 .about-me,
