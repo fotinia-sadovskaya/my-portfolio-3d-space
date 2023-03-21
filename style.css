@@ -73,6 +73,7 @@ video {
 
 .hero {
   background-image: url("images/steampunkShip.png");
+  border-image: url("images/steampunkShip.png") 30 stretch;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 40px auto;
