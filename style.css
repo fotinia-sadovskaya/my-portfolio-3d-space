@@ -167,14 +167,14 @@ video {
 }
 
 .started-link {
-  color: var(--primary-color);
+  color: var(--accent-color);
   box-shadow: var(--box-shadow);
   border: 1px solid var(--primary-color);
   transition: all 100ms ease-in-out;
 }
 
 .started-link:hover {
-  color: var(--secondary-color);
+  color: var(--accent-color);
   border: 1px solid var(--secondary-color);
 }
 
