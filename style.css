@@ -72,13 +72,9 @@ video {
 }
 
 .hero {
- background: var(--accent-color);
+  background: var(--accent-color);
   margin: 40px auto;
   padding: 100px 20px 200px;
-
-  
-  
- 
 }
 
 .about-me,
