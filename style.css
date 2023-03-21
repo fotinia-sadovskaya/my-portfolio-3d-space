@@ -89,6 +89,10 @@ video {
   color: var(--primary-color);
 }
 
+.about-me h3 {
+  color: var(--primary-color);
+}
+
 .hero::before {
   content: "";
   position: absolute; /* Абсолютное позиционирование */
