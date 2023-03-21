@@ -81,7 +81,6 @@ video {
 h2,
 h3,
 a {
-  text-align: left;
   color: var(--accent-color);
 }
 
