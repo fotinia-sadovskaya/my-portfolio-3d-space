@@ -78,9 +78,7 @@ video {
 }
 
 .hero h1,
-h2,
-h3,
-a {
+h2 {
   color: var(--accent-color);
 }
 
