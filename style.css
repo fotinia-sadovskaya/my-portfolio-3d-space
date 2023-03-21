@@ -72,12 +72,12 @@ video {
 }
 
 .hero {
-  background: var(--accent-color);
+ 
   margin: 40px auto;
   padding: 100px 20px 200px;
 
-  background-image: url(steampunkShip.png);
-  filter: blur(10px);
+  background-image: var(--accent-color), url(steampunkShip.png), blur(10px);
+ 
 }
 
 .about-me,
