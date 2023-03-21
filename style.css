@@ -93,6 +93,10 @@ video {
   color: var(--primary-color);
 }
 
+.contact-me h3 {
+  color: var(--primary-color);
+}
+
 .hero::before {
   content: "";
   position: absolute; /* Абсолютное позиционирование */
