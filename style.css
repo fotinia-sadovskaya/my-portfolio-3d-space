@@ -9,7 +9,6 @@
 }
 
 body {
-  background-image: url(steampunkShip.png) blur(10px)  no-repeat;
   font-family: var(--default-font-family);
   max-height: 100%;
   max-width: 100%;
@@ -73,10 +72,12 @@ video {
 }
 
 .hero {
+  background: var(--accent-color);
   margin: 40px auto;
   padding: 100px 20px 200px;
-  background-image: url(steampunkShip.png), blur(10px);;
-  
+
+  background: url(steampunkShip.png);
+  filter: blur(10px);
 }
 
 .about-me,
