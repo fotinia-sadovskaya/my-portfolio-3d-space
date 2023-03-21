@@ -72,7 +72,7 @@ video {
 }
 
 .hero {
-  background-image: url(images/.steampunkShip.png), blur(10px);
+  background-image: url("..images/.steampunkShip.png"), blur(10px);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 40px auto;
