@@ -76,17 +76,17 @@ video {
   text-align: left;
 }
 
-.hero h1 {
+.hero h1, {
   color: var(--accent-color);
 }
 
 .hero::before {
   content: "";
-  /*position: absolute; /* Абсолютное позиционирование */
-   /*left: 0;
-   /*right: 0;
-   /*top: 0;
-   /*bottom: 0;*/
+  position: absolute; /* Абсолютное позиционирование */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   z-index: -1;
   background: url("images/steampunkShip.png") center / cover no-repeat;
   filter: blur(10px);
