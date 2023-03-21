@@ -85,6 +85,10 @@ video {
   color: var(--accent-color);
 }
 
+.container h2 {
+  color: var(--primary-color);
+}
+
 .hero::before {
   content: "";
   position: absolute; /* Абсолютное позиционирование */
