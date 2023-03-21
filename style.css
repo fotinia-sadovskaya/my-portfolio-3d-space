@@ -71,7 +71,7 @@ video {
   box-shadow: var(--box-shadow) !important;
 }
 
-.hero::before {
+.hero:before {
   background: url("images/steampunkShip.png");
   z-index: -1;
   filter: blur(5px);
