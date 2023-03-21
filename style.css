@@ -13,14 +13,15 @@ body {
   max-height: 100%;
   max-width: 100%;
   background: linear-gradient(
-    to right,
-    #e4afcb 0%,
-    #b8cbb8 0%,
-    #b8cbb8 0%,
-    #e2c58b 30%,
-    #c2ce9c 64%,
-    #7edbdc 100%
-  );
+      to right,
+      #e4afcb 0%,
+      #b8cbb8 0%,
+      #b8cbb8 0%,
+      #e2c58b 30%,
+      #c2ce9c 64%,
+      #7edbdc 100%
+    ),
+    url("../images/steampunkShip.png"), blur(10px), no-repeat;
 }
 
 h1,
@@ -72,14 +73,9 @@ video {
 }
 
 .hero {
- 
+  background: var(--accent-color);
   margin: 40px auto;
   padding: 100px 20px 200px;
-
-  background-image: url("../images/steampunkShip.png"), blur(10px);
-  filter: blur(10px);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .about-me,
