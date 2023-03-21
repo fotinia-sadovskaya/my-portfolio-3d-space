@@ -76,7 +76,7 @@ video {
   text-align: left;
 }
 
-.hero h1 {
+.hero h1, h3 {
   color: var(--accent-color);
 }
 
