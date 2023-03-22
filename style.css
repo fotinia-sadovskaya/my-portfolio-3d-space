@@ -315,11 +315,7 @@ video {
   color: var(--accent-color);
 }
 
-h2 .form-control {
-  color: var(--primary-color);
-}
-
-.form-control h3 {
+.form-control h2, h3 {
   color: var(--primary-color);
 }
 
