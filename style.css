@@ -319,6 +319,10 @@ h2 .form-control {
   color: var(--primary-color);
 }
 
+h3 .form-control {
+  color: var(--primary-color);
+}
+
 .form-control {
   border-radius: var(--border-radius);
   background-color: var(--accent-color);
