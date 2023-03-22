@@ -294,6 +294,45 @@ video {
   padding-left: 5px;
 }
 
+.form-group {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 100px;
+  margin: 10px 5px;
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--accent-color);
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+  color: var(--accent-color);
+}
+
+.form-control {
+  border-radius: var(--border-radius);
+  background-color: var(--accent-color);
+  border-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.form-control:focus {
+  color: var(--primary-color);
+  border-color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+}
+.form-control::placeholder {
+  color: var(--primary-color);
+}
+input.form-control {
+  height: 46px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 38px;
