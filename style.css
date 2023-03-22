@@ -315,10 +315,6 @@ video {
   color: var(--accent-color);
 }
 
-.form-control, h2, h3 {
-  color: var(--primary-color);
-}
-
 .form-control {
   border-radius: var(--border-radius);
   background-color: var(--accent-color);
