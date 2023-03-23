@@ -403,6 +403,7 @@ input.form-control {
 .hero::before {
   content: "";
   position: relative;
+  height: 50%;
   left: 0;
   right: 0;
   top: 40px;
