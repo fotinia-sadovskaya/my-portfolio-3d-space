@@ -402,11 +402,9 @@ input.form-control {
 
 .hero::before {
   content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50px;
-  bottom: 0;
+  display: block;
+  margin: 0 auto;
+  padding: auto;
   z-index: -1;
   background: url("images/steampunkShip.png") center / cover no-repeat;
   opacity: 0.4;
