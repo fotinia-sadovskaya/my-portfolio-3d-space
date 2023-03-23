@@ -93,11 +93,11 @@ video {
   color: var(--primary-color);
 }
 
-section {
+#home {
   position: relative;
 }
 
-section::before {
+#home::before {
   content: "";
   position: absolute;
   left: 0;
