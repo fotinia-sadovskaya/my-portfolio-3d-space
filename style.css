@@ -101,13 +101,13 @@ video {
 .hero::before {
   content: "";
   position: absolute;
-  left: 10px;
+  left: 0;
   right: 0;
-  top: 20px;
+  top: 40px;
   bottom: 0;
   z-index: -1;
   background: url("images/steampunkShip.png") center / cover no-repeat;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .about-me,
