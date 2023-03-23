@@ -79,7 +79,6 @@ video {
 .hero {
   margin: 40px auto;
   padding: 100px 20px 200px;
-  background-color: var(--accent-color);
 }
 
 .container h2 {
