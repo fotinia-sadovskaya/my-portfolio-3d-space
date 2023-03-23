@@ -79,11 +79,6 @@ video {
 .hero {
   margin: 40px auto;
   padding: 100px 20px 200px;
-  text-align: left;
-}
-
-.hero h1, h2, h3, h5 {
-  color: var(--accent-color);
 }
 
 .container h2 {
@@ -107,7 +102,7 @@ video {
   bottom: 0;
   z-index: -1;
   background: url("images/steampunkShip.png") center / cover no-repeat;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .about-me,
@@ -185,14 +180,14 @@ video {
 }
 
 .started-link {
-  color: var(--accent-color);
+  color: var(--primary-color);
   box-shadow: var(--box-shadow);
   border: 1px solid var(--primary-color);
   transition: all 100ms ease-in-out;
 }
 
 .started-link:hover {
-  color: var(--accent-color);
+  color:var(--primary-color);
   border: 1px solid var(--secondary-color);
 }
 
