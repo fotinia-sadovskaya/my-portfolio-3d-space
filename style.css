@@ -93,18 +93,17 @@ video {
   color: var(--primary-color);
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 40px;
-  bottom: 0;
-  z-index: -1;
-  background: url("images/steampunkShip.png") center / cover no-repeat;
-  opacity: 0.4;
-}
-
+ section {
+    position: relative;
+   }
+   section::before {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    z-index: -1;
+     background: url("images/steampunkShip.png") center / cover no-repeat;
+    opacity: 0.4;
+   }
 .about-me,
 .project-main,
 .contact-me {
