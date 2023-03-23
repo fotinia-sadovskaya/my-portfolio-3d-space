@@ -399,13 +399,4 @@ input.form-control {
     font-size: 18px;
   }
 
-.hero::before {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  z-index: -1;
-  background: url("images/steampunkShip.png") center / cover no-repeat;
-  opacity: 0.4;
-}
-
 }
