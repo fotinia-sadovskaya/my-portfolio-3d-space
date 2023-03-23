@@ -93,17 +93,22 @@ video {
   color: var(--primary-color);
 }
 
- section {
-    position: relative;
-   }
-   section::before {
-    content: '';
-    position: absolute;
-    left: 0; right: 0; top: 0; bottom: 0;
-    z-index: -1;
-     background: url("images/steampunkShip.png") center / cover no-repeat;
-    opacity: 0.4;
-   }
+section {
+  position: relative;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: url("images/steampunkShip.png") center / cover no-repeat;
+  opacity: 0.4;
+}
+
 .about-me,
 .project-main,
 .contact-me {
@@ -186,7 +191,7 @@ video {
 }
 
 .started-link:hover {
-  color:var(--primary-color);
+  color: var(--primary-color);
   border: 1px solid var(--secondary-color);
 }
 
@@ -309,7 +314,8 @@ video {
   color: var(--accent-color);
 }
 
-.form-control h2, h3 {
+.form-control h2,
+h3 {
   color: var(--primary-color);
 }
 
@@ -398,5 +404,4 @@ input.form-control {
   .account-link {
     font-size: 18px;
   }
-
 }
