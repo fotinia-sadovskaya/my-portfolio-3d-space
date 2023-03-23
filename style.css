@@ -406,7 +406,7 @@ input.form-control {
   left: 0;
   right: 0;
   top: 50px;
-  bottom: 50px;
+  bottom: 100px;
   z-index: -1;
   background: url("images/steampunkShip.png") center / cover no-repeat;
   opacity: 0.4;
