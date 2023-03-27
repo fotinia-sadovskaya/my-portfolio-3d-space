@@ -71,6 +71,13 @@ video {
   box-shadow: var(--box-shadow);
 }
 
+section {
+  display: block;
+  margin: 0 auto;
+  max-width: 95%;
+
+}
+
 .navbar {
   background-color: var(--primary-color) !important;
   box-shadow: var(--box-shadow) !important;
