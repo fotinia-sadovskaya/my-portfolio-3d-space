@@ -73,7 +73,7 @@ video {
 
 #form {
   display: block;
-  margin: 0 auto 40px;
+  margin: 0 auto;
   max-width: 90%;
 
 }
@@ -279,7 +279,7 @@ video {
 }
 
 .footer {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
