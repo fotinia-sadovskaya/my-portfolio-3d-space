@@ -347,7 +347,7 @@ input.form-control {
 }
 
 svg:hover {
-  background-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 @media (max-width: 576px) {
