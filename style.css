@@ -76,7 +76,7 @@ video {
 }
 
 svg {
-  background-color: var(--primary-color);
+  max-width: 50%;
 }
 
 #form {
