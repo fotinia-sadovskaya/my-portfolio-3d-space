@@ -191,7 +191,6 @@ video {
 }
 
 .started-link {
-  font-size: 24px;
   color: var(--primary-color);
   box-shadow: var(--box-shadow);
   border: 1px solid var(--primary-color);
