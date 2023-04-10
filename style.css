@@ -346,6 +346,10 @@ input.form-control {
   height: 46px;
 }
 
+svg:hover {
+  background-color: var(--accent-color);
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 38px;
