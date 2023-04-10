@@ -112,7 +112,7 @@ video {
   position: absolute;
   left: 0;
   right: 0;
-  top: -20px;
+  top: 20px;
   bottom: 0;
   z-index: -1;
   background: url("images/steampunkShip.png") center / cover no-repeat;
