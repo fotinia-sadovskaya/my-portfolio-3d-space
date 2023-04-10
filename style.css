@@ -9,6 +9,10 @@
 }
 
 body {
+  background-image: url(images/steampunkShip.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   font-family: var(--default-font-family);
   max-height: 100%;
   max-width: 100%;
