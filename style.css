@@ -200,7 +200,7 @@ video {
 }
 
 .started-link:hover {
- color: var(--accent-color);
+  color: var(--accent-color);
   border: 1px solid var(--secondary-color);
 }
 
