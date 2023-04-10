@@ -195,13 +195,11 @@ video {
   font-size: 20px;
   color: var(--primary-color);
   box-shadow: var(--box-shadow);
-  border: 1px solid var(--primary-color);
   transition: all 100ms ease-in-out;
 }
 
 .started-link:hover {
   color: var(--accent-color);
-  border: 1px solid var(--secondary-color);
 }
 
 .homepage-link {
