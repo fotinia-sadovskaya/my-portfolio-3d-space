@@ -13,9 +13,18 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  opacity: 0.2;
   font-family: var(--default-font-family);
- 
+  max-height: 100%;
+  max-width: 100%;
+  background: linear-gradient(
+    to right,
+    #e4afcb 0%,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #e2c58b 30%,
+    #c2ce9c 64%,
+    #7edbdc 100%
+  );
 }
 
 h1,
