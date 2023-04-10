@@ -117,6 +117,7 @@ video {
   z-index: -1;
   background: url("images/steampunkShip.png") center / cover no-repeat;
   opacity: 0.2;
+  background-attachment: fixed;
 }
 
 .about-me,
