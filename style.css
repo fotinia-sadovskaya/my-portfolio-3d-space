@@ -194,7 +194,6 @@ video {
 .started-link {
   font-size: 20px;
   color: var(--primary-color);
-  box-shadow: var(--box-shadow);
   transition: all 100ms ease-in-out;
 }
 
