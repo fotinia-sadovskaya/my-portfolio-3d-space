@@ -103,9 +103,9 @@ video {
   position: relative;
 }
 
-body::before {
+#home::before {
   content: "";
-  position: relative;
+  position: absolute;
   left: 0;
   right: 0;
   top: 0;
