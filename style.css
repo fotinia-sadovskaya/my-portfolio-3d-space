@@ -118,7 +118,6 @@ video {
   background: url("images/steampunkShip.png") center / cover no-repeat;
   opacity: 0.2;
   background-attachment: fixed;
-   max-width: fit-content;
 }
 
 .about-me,
