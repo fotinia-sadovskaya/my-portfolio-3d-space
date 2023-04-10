@@ -75,10 +75,6 @@ video {
   box-shadow: var(--box-shadow);
 }
 
-svg {
-  max-width: 50%;
-}
-
 #form {
   display: block;
   margin: 0 auto;
