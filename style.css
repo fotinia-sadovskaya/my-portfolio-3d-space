@@ -105,6 +105,8 @@ video {
 
 #home {
   position: relative;
+  max-width: fit-content;
+  max-height: fit-content;
 }
 
 #home::before {
