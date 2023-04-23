@@ -312,13 +312,12 @@ video {
   border: 1px solid var(--primary-color);
   border-radius: var(--border-radius);
   background: var(--primary-color);
-  
+  box-shadow: var(--box-shadow);
   color: var(--accent-color);
 }
 
 .button:hover {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
+  background: var(--secondary-color);
   color: var(--accent-color);
   transition: all 100ms ease-in-out;
 }
