@@ -355,6 +355,8 @@ input.form-control {
   bottom: -1em; /* Положение снизу */
   background: rgba(2, 95, 90, 0.7); /* Цвет фона */
   font-size: 18px; /* Размер текста */
+  width: 100%;
+  height: 100%;
   padding: 20px; /* Поля вокруг текста */
   
   color: var(--accent-color);
