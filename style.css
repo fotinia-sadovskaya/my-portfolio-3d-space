@@ -96,7 +96,11 @@ video {
   color: var(--accent-color);
 }
 
-.hero h2, h3 {
+.hero h2 {
+  color: var(--accent-color);
+}
+
+.hero h3 {
   color: var(--accent-color);
 }
 
