@@ -208,12 +208,12 @@ video {
 
 .started-link {
   font-size: 28px;
-  color: var(--primary-color);
+  color: var(--accent-color);
   transition: all 250ms ease-in-out;
 }
 
 .started-link:hover {
-  color: var(--accent-color);
+  color: var(--primary-color);
 }
 
 .homepage-link {
