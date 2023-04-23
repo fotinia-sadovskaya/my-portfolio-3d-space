@@ -357,7 +357,7 @@ input.form-control {
   font-size: 18px; /* Размер текста */
   padding: 5px; /* Поля вокруг текста */
   margin: 40px 10px 0px 10px ;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   border-radius: var(--border-radius);
    /*box-shadow: var(--box-shadow);*/
   text-align: center; /* Выравниваем текст по центру */
