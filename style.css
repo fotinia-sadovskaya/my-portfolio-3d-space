@@ -91,6 +91,10 @@ video {
   padding: 100px 20px 200px;
 }
 
+.hero h1 {
+  color: var(--accent-color);
+}
+
 .container h2 {
   color: var(--primary-color);
 }
