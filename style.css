@@ -201,7 +201,6 @@ video {
 }
 
 .contact-link:hover {
-  font-weight: bold;
   background-color: var(--accent-color);
   color: var(--primary-color);
 }
@@ -333,7 +332,6 @@ video {
 }
 
 .button:hover {
-  font-weight: bold;
   background: var(--accent-color);
   color: var(--primary-color);
 }
