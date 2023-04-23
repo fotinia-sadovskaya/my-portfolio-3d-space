@@ -357,8 +357,8 @@ input.form-control {
   font-size: 18px; /* Размер текста */
   width: 70%;
   height: 70%;
-  /* padding: 20px; /* Поля вокруг текста */
-  /* margin: 40px 20px 50px 20px;*/
+  padding: 20px; /* Поля вокруг текста */
+  margin: 40px 20px 50px 20px;
   color: var(--accent-color);
   border-radius: var(--border-radius);
   /*box-shadow: var(--box-shadow);*/
