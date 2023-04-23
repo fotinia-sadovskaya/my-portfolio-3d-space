@@ -329,12 +329,13 @@ video {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--accent-color);
+  transition: all 250ms ease-in-out;
 }
 
 .button:hover {
+  font-weight: bold;
   background: var(--accent-color);
   color: var(--primary-color);
-  transition: all 250ms ease-in-out;
 }
 
 .form-control h2,
