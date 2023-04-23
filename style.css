@@ -310,7 +310,7 @@ video {
   padding: 10px;
   border: 1px solid var(--primary-color);
   border-radius: var(--border-radius);
-  background: var(--primary-color);
+  
   box-shadow: var(--box-shadow);
   color: var(--accent-color);
 }
