@@ -305,9 +305,10 @@ video {
 }
 
 .button {
+  font-size: 20px;
+  padding: 15px 20px;
   width: 100px;
   margin: 10px 5px;
-  padding: 10px;
   border: 1px solid var(--primary-color);
   border-radius: var(--border-radius);
   background: var(--primary-color);
@@ -316,8 +317,6 @@ video {
 }
 
 .button:hover {
-  font-size: 20px;
-  padding: 15px 20px;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--accent-color);
