@@ -211,7 +211,7 @@ video {
   border: 1px solid var(--primary-color);
   box-shadow: var(--box-shadow);
   border-radius: 30px;
-  padding: 0px 20px;
+  padding: 0px;
   font-size: 28px;
   color: var(--primary-color);
   transition: all 250ms ease-in-out;
