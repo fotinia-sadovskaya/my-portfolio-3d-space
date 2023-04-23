@@ -201,6 +201,7 @@ video {
 }
 
 .contact-link:hover {
+  font-weight: bold;
   background-color: var(--accent-color);
   color: var(--primary-color);
 }
