@@ -315,9 +315,10 @@ video {
   color: var(--accent-color);
 }
 
-.button:hover {
-  background-color: var(--secondary-color);
-  color: var(--accent-color);
+.button:hover{
+  color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--primary-color);
 }
 
 .form-control h2,
