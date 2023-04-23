@@ -185,7 +185,7 @@ video {
 
 .navigation-links a {
   margin: 20px;
-  border-radius: var(--border-radius);
+  border-radius: 50%;
   padding: 15px 20px;
   text-decoration: none;
   text-transform: capitalize;
