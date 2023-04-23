@@ -200,8 +200,8 @@ video {
 }
 
 .contact-link:hover {
-  background-color: var(--secondary-color);
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--primary-color);
 }
 
 .started-link {
