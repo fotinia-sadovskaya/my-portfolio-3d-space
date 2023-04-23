@@ -361,7 +361,7 @@ input.form-control {
   margin: 40px 20px 30px 20px;
   color: var(--accent-color);
   border-radius: var(--border-radius);
-  /*box-shadow: var(--box-shadow);*/
+  box-shadow: var(--box-shadow);
   text-align: center; /* Выравниваем текст по центру */
   transition: 0.5s; /* Время анимации */
   opacity: 0; /* Полная прозрачность */
