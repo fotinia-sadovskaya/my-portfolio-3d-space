@@ -186,13 +186,13 @@ video {
 .navigation-links a {
   margin: 20px;
   border-radius: 30px;
-  padding: 10px 20px;
   text-decoration: none;
   text-transform: capitalize;
 }
 
 .contact-link {
   font-size: 20px;
+  padding: 10px 20px;
   background: var(--primary-color);
   border: 1px solid var(--primary-color);
   box-shadow: var(--box-shadow);
