@@ -203,6 +203,7 @@ video {
 .contact-link:hover {
   background-color: var(--accent-color);
   color: var(--primary-color);
+  transform: scale(1.1);
 }
 
 .started-link {
@@ -334,6 +335,7 @@ video {
 .button:hover {
   background: var(--accent-color);
   color: var(--primary-color);
+  transform: scale(1.1);
 }
 
 .form-control h2,
