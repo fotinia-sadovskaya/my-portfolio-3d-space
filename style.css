@@ -39,7 +39,7 @@ h5 {
 
 h1 {
   font-family: var(--heading-font-family);
-  font-size: 72px;
+  font-size: 64px;
   font-weight: bold;
 }
 
@@ -92,6 +92,7 @@ video {
 }
 
 .hero h1 {
+  font-size: 72px;
   color: var(--accent-color);
 }
 
