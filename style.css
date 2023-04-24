@@ -399,6 +399,7 @@ input.form-control {
   
 .hero h1 {
   font-size: 48px;
+  margin-top: 0px;
 }
 
   h2 {
@@ -411,7 +412,7 @@ input.form-control {
   }
 
   .hero {
-    padding: 40px 20px 150px 20px;
+    padding: 50px 20px 150px 20px;
   }
 
   .steampunkShip {
