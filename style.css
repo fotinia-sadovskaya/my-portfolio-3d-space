@@ -399,6 +399,7 @@ input.form-control {
   .hero h1 {
     font-size: 48px;
     margin-top: 0px;
+    margin-bottom: 20px;
   }
 
   .hero h2 {
