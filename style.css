@@ -389,6 +389,22 @@ input.form-control {
   bottom: 0; /* Положение снизу */
 }
 
+.account-link {
+  position: relative;
+}
+.account-link::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 110%;
+  transition: all 0.4s;
+}
+.account-link:hover::after {
+  width: 100%;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 38px;
