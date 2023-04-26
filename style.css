@@ -232,7 +232,6 @@ video {
   box-shadow: var(--box-shadow);
 }
 
-
 .behance-link,
 .account-link,
 .vimeo-link {
@@ -245,7 +244,6 @@ video {
   text-decoration: none;
 }
 
-
 .behance-link:hover,
 .account-link:hover,
 .vimeo-link:hover,
@@ -255,6 +253,8 @@ video {
 }
 
 .email-link {
+  display: flex;
+  justify-content: center;
   color: var(--secondary-color);
   font-size: 24px;
   text-align: center;
@@ -276,6 +276,7 @@ video {
 .email-link:hover::after {
   text-decoration: underline;
   color: var(--secondary-color);
+  background-color: var(--secondary-color);
   width: 100%;
 }
 
