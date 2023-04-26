@@ -253,7 +253,7 @@ video {
 }
 
 .email-link {
-  
+  color: var(--secondary-color);
   font-size: 24px;
   line-height: 2;
   text-decoration: none;
@@ -263,7 +263,6 @@ video {
   content: "";
   width: 0%;
   height: 2px;
-  color: var(--secondary-color) !important;
   background-color: var(--secondary-color);
   position: absolute;
   left: 0;
@@ -271,6 +270,7 @@ video {
   transition: all 0.4s;
 }
 .email-link:hover::after {
+  color: var(--secondary-color) !important;
   width: 100%;
 }
 
