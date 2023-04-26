@@ -252,6 +252,10 @@ video {
   color: var(--secondary-color);
 }
 
+a:hover {
+  color: var(--secondary-color) !important;
+}
+
 .email-link {
   color: var(--secondary-color);
   font-size: 24px;
