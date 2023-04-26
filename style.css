@@ -253,14 +253,14 @@ video {
 }
 
 .email-link {
+  display: flex;
   
-  justify-content: center;
   color: var(--secondary-color);
   font-size: 24px;
   text-align: center;
   line-height: 2;
   text-decoration: none;
-  font-weight: 700;
+
   position: relative;
 }
 .email-link::after {
