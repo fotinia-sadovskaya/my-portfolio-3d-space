@@ -139,6 +139,11 @@ video {
   padding: 100px 20px 50px;
 }
 
+.contact-me {
+  display: flex;
+  justify-content: center;
+}
+
 .images,
 .video {
   margin: 50px auto;
