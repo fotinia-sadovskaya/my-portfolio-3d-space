@@ -233,6 +233,7 @@ video {
 }
 
 .behance-link,
+.account-link,
 .vimeo-link {
   display: flex;
   justify-content: center;
@@ -252,20 +253,17 @@ video {
 }
 
 a:hover {
-  color: var(--secondary-color) !important;
+  color: var(--secondary-color);
 }
 
-.email-link,
-.account-link {
+.email-link {
   color: var(--secondary-color);
   font-size: 24px;
   line-height: 2;
   text-decoration: none;
   position: relative;
 }
-
-.email-link::after,
-.account-link::after {
+.email-link::after {
   content: "";
   width: 0%;
   height: 2px;
@@ -275,8 +273,7 @@ a:hover {
   top: 110%;
   transition: all 0.4s;
 }
-
-.email-link:hover::after, .account-link:hover::after {
+.email-link:hover::after {
   color: var(--secondary-color) !important;
   width: 100%;
 }
