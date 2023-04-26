@@ -274,6 +274,8 @@ video {
   transition: all 0.4s;
 }
 .email-link:hover::after {
+  text-decoration: underline;
+  color: var(--secondary-color);
   width: 100%;
 }
 
