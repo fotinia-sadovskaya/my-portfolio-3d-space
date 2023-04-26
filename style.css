@@ -232,7 +232,7 @@ video {
   box-shadow: var(--box-shadow);
 }
 
-.email-link,
+
 .behance-link,
 .account-link,
 .vimeo-link {
@@ -245,13 +245,31 @@ video {
   text-decoration: none;
 }
 
-.email-link:hover,
+
 .behance-link:hover,
 .account-link:hover,
 .vimeo-link:hover,
 .page-built:hover {
   text-decoration: underline;
   color: var(--secondary-color);
+}
+
+.email-link {
+  font-weight: 700;
+  position: relative;
+}
+.email-link::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--secondary-color);
+  position: absolute;
+  left: 0;
+  top: 110%;
+  transition: all 0.4s;
+}
+.email-link:hover::after {
+  width: 100%;
 }
 
 .steampunkShip {
