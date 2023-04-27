@@ -233,7 +233,6 @@ video {
 }
 
 .behance-link,
-
 .vimeo-link {
   display: flex;
   justify-content: center;
@@ -245,7 +244,6 @@ video {
 }
 
 .behance-link:hover,
-
 .vimeo-link:hover,
 .page-built:hover {
   text-decoration: underline;
