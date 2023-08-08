@@ -180,7 +180,7 @@
           </div>
           <div class="col-lg-8">
             <form
-              action=""
+              action="#"
               class="row g-lg-3 gy-3"
               name="contact"
               method="POST"
@@ -198,6 +198,8 @@
                   class="form-control"
                   placeholder="Enter your name"
                   rel="noopener noreferrer"
+                  id="user-name"
+                  name="User name"
                 />
               </div>
               <div class="form-group col-md-6">
@@ -206,6 +208,8 @@
                   class="form-control"
                   placeholder="Enter your email"
                   rel="noopener noreferrer"
+                  id="user-email"
+                  name="User email"
                 />
               </div>
               <div class="form-group col-md-12">
@@ -214,6 +218,8 @@
                   class="form-control"
                   placeholder="Enter the subject"
                   rel="noopener noreferrer"
+                  id="user-subject"
+                  name="User subject"
                 />
               </div>
               <div class="form-group col-md-12">
@@ -223,10 +229,12 @@
                   class="form-control"
                   placeholder="Enter your message"
                   rel="noopener noreferrer"
+                  id="user-message"
+                  name="User message"
                 ></textarea>
               </div>
               <div class="form-group col-md-12 d-grid">
-                <button type="submit" class="button">Send</button>
+                <button type="submit" class="button" id="launch-btn">Send</button>
               </div>
             </form>
           </div>
@@ -365,5 +373,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="js/form.js"></script>
   </body>
 </html>
