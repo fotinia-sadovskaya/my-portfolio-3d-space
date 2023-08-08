@@ -12,16 +12,16 @@ function clearFormFields() {
   });
 }
 
-function showGooseAnim() {
+function showShipAnim() {
   const targetContainer = document.querySelector("#form");
-  const gusImage = document.createElement("img");
-  gusImage.setAttribute("src", "./img/gus-anim.gif");
-  gusImage.classList.add("gus-anim");
+  const shipImage = document.createElement("img");
+  shipImage.setAttribute("src", "./img/ship-anim.gif");
+  shipImage.classList.add("ship-anim");
 
-  targetContainer.appendChild(gusImage);
+  targetContainer.appendChild(shipImage);
 
   setTimeout(2000, () => {
-    targetContainer.removeChild(gusImage);
+    targetContainer.removeChild(shipImage);
   });
 }
 
