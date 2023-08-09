@@ -76,7 +76,7 @@ video {
 }
 
 .ship-anim {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 250px;
     left: 0px;
