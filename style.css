@@ -75,7 +75,7 @@ video {
   box-shadow: var(--box-shadow);
 }
 
-#form {
+#form-section {
   display: block;
   margin: 0 auto;
   max-width: 90%;
