@@ -1,39 +1,43 @@
 const form = document.querySelector("#form");
 const launchBtn = document.querySelector("#launch-btn");
+
 const userEmailField = document.querySelector("#user-email");
 
 
-
 function clearFormFields() {
-  const modalFiends = formModal.querySelectorAll("input");
+  const fieldName = form.querySelector('input[type="text"]');
+  const fieldEmail = form.querySelector('input[type="email"]');
 
-  modalFiends.forEach((field) => {
-    field.value = "";
-  });
+  fieldName.value = "";
+  fieldEmail.value = "";
+}
+
+function addShipElement() {
+  const targetContainer = document.querySelector("#form");
+  const shipEl = document.createElement("img");
+ shipEl.classList.add("ship-anim");
+
+  targetContainer.appendChild(shipEl);
 }
 
 function showShipAnim() {
-  const targetContainer = document.querySelector("#form");
-  const shipImage = document.createElement("img");
-  shipImage.setAttribute("src", "./img/ship-anim.gif");
-  shipImage.classList.add("ship-anim");
+  const shipEl = document.querySelector(".ship-anim");
 
-  targetContainer.appendChild(shipImage);
+  shipEl.setAttribute("src", "./img/ship-anim.gif");
 
-  setTimeout(2000, () => {
-    targetContainer.removeChild(shipImage);
-  });
+  setTimeout(() => {
+    shipEl.removeAttribute("src");
+  }, 4000);
 }
+
+addShipElement();
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const formData = new FormData(form);
 
   launchBtn.setAttribute("disabled", true);
-
-  if (userEmailField?.value?.length > 30) {
-    return;
-  }
+  launchBtn.style.opacity = "0.7";
 
   fetch("/", {
     method: "POST",
@@ -41,12 +45,14 @@ form.addEventListener("submit", (e) => {
     body: new URLSearchParams(formData).toString(),
   })
     .then(() => {
-      showGooseAnim();
+      showShipAnim();
+
+      launchBtn.removeAttribute("disabled");
+      clearFormFields();
 
       setTimeout(() => {
-        // launchBtn.removeAttribute('disabled')
-        // clearFormFields();
-      }, 2000);
+        launchBtn.style.opacity = "1";
+      }, 4000);
     })
     .catch((error) => console.log("Sending form failed"));
 });
