@@ -79,10 +79,10 @@ video {
     position: absolute;
     top: 0;
     bottom: 250px;
-    left: 500px;
+    left: 0px;
     margin-bottom: auto;
     margin-top: auto;
-    width:50%;
+    width:70%;
     z-index: 2;
     pointer-events: none;
 }
