@@ -27,7 +27,7 @@ function showShipAnim() {
 
   setTimeout(() => {
     shipEl.removeAttribute("src");
-  }, 8000);
+  }, 4000);
 }
 
 addShipElement();
@@ -52,7 +52,7 @@ form.addEventListener("submit", (e) => {
 
       setTimeout(() => {
         launchBtn.style.opacity = "1";
-      }, 8000);
+      }, 4000);
     })
     .catch((error) => console.log("Sending form failed"));
 });
