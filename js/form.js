@@ -37,7 +37,7 @@ form.addEventListener("submit", (e) => {
   const formData = new FormData(form);
 
   launchBtn.setAttribute("disabled", true);
-  launchBtn.style.opacity = "0.7";
+  launchBtn.style.opacity = "0.8";
 
   fetch("/", {
     method: "POST",
