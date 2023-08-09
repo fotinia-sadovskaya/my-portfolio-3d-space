@@ -78,11 +78,11 @@ video {
 .ship-anim {
     position: fixed;
     top: 0;
-    bottom: 250px;
+    bottom: 50px;
     left: 0px;
     margin-bottom: auto;
     margin-top: auto;
-    width:80%;
+    width: 100%;
     z-index: 2;
     pointer-events: none;
 }
