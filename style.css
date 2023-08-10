@@ -181,6 +181,7 @@ video {
   color: var(--secondary-color);
   text-align: center;
   text-decoration: none;
+  position: relative;
 }
 
 /* .learn-more:hover,
@@ -253,6 +254,7 @@ video {
   text-align: center;
   line-height: 2;
   text-decoration: none;
+  position: relative;
 }
 
 /* .behance-link:hover,
