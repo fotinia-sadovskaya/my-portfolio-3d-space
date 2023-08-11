@@ -3,19 +3,22 @@ const launchBtn = document.querySelector("#launch-btn");
 
 const userEmailField = document.querySelector("#user-email");
 
-
 function clearFormFields() {
   const fieldName = form.querySelector('input[type="text"]');
   const fieldEmail = form.querySelector('input[type="email"]');
+  const fieldSubject = form.querySelector('input[type="text"]');
+  const fieldMessage = form.querySelector('textarea[type="text"]'); 
 
   fieldName.value = "";
   fieldEmail.value = "";
+  fieldSubject.value = "";
+  fieldMessage.value = "";
 }
 
 function addShipElement() {
   const targetContainer = document.querySelector("#form");
   const shipEl = document.createElement("img");
- shipEl.classList.add("ship-anim");
+  shipEl.classList.add("ship-anim");
 
   targetContainer.appendChild(shipEl);
 }
