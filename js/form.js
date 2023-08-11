@@ -6,12 +6,12 @@ const userEmailField = document.querySelector("#user-email");
 function clearFormFields() {
   const fieldName = form.querySelector('input[type="text"]');
   const fieldEmail = form.querySelector('input[type="email"]');
-  const fieldSubject = form.querySelector('input[type="text"]');
+  // const fieldSubject = form.querySelector('input[type="text"]');
   const fieldMessage = form.querySelector('textarea[type="text"]'); 
 
   fieldName.value = "";
   fieldEmail.value = "";
-  fieldSubject.value = "";
+  // fieldSubject.value = "";
   fieldMessage.value = "";
 }
 
