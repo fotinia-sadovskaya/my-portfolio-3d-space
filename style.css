@@ -285,7 +285,7 @@ a:hover {
   top: 110%;
   transition: all 0.4s;
 }
-.email-link:hover::after, .account-link:hover::after, .behance-link:hover::after, .vimeo-link:hover::after {
+.email-link:hover::after, .account-link:hover::after {
   width: 100%;
 }
 
