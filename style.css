@@ -245,16 +245,16 @@ video {
   box-shadow: var(--box-shadow);
 }
 
-/* .behance-link,
+.behance-link,
 .vimeo-link {
-  display: flex;
+  text-align: center;
+ /*  display: flex;
   justify-content: center;
   color: var(--secondary-color);
   font-size: 24px;
-  text-align: center;
   line-height: 2;
-  text-decoration: none;
-} */
+  text-decoration: none; */
+}
 
 /* .behance-link:hover,
 .vimeo-link:hover, */
