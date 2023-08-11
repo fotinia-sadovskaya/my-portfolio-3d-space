@@ -76,17 +76,16 @@ video {
 }
 
 .ship-anim {
-    position: fixed;
-    top: 0;
-    bottom: 90px;
-    left: 0px;
-    margin-bottom: auto;
-    margin-top: auto;
-    width: 100%;
-    z-index: 2;
-    pointer-events: none;
+  position: fixed;
+  top: 0;
+  bottom: 90px;
+  left: 0px;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
 }
-
 
 #form-section {
   display: block;
@@ -250,10 +249,10 @@ video {
   text-align: center;
   display: flex;
   justify-content: center;
-  /* color: var(--secondary-color);
+  color: var(--secondary-color);
   font-size: 24px;
   line-height: 2;
-  text-decoration: none; */
+  text-decoration: none;
 }
 
 /* .behance-link:hover,
@@ -267,7 +266,9 @@ a:hover {
   color: var(--secondary-color);
 }
 
-.email-link, .account-link, .behance-link,
+.email-link,
+.account-link,
+.behance-link,
 .vimeo-link {
   color: var(--secondary-color);
   font-size: 24px;
@@ -275,7 +276,10 @@ a:hover {
   text-decoration: none;
   position: relative;
 }
-.email-link::after, .account-link::after, .behance-link::after, .vimeo-link::after {
+.email-link::after,
+.account-link::after,
+.behance-link::after,
+.vimeo-link::after {
   content: "";
   width: 0%;
   height: 2px;
@@ -285,7 +289,10 @@ a:hover {
   top: 110%;
   transition: all 0.4s;
 }
-.email-link:hover::after, .account-link:hover::after, .behance-link:hover::after, .vimeo-link:hover::after {
+.email-link:hover::after,
+.account-link:hover::after,
+.behance-link:hover::after,
+.vimeo-link:hover::after {
   width: 100%;
 }
 
