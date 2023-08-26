@@ -34,7 +34,8 @@ body {
 #heart{
 position:absolute;
 /* top: 50px;
-margin: auto; */
+left: 50px; */
+margin-right: 20px;
 -moz-transition: transform 1s; 
 -webkit-transition: transform 1s;  
 -ms-transition: transform 1s;  
