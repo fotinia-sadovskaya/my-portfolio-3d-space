@@ -33,8 +33,8 @@ body {
 
 #heart{
 position:absolute;
-bottom: 40px;
-right: 0;
+top: 50px;
+left: 0;
 -moz-transition: transform 1s; 
 -webkit-transition: transform 1s;  
 -ms-transition: transform 1s;  
