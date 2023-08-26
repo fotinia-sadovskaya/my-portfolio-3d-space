@@ -32,9 +32,9 @@ body {
 }
 
 #heart{
-position:relative;
-/* top: 50px;
-left: 0; */
+position:absolute;
+top: 50px;
+left: 0;
 -moz-transition: transform 1s; 
 -webkit-transition: transform 1s;  
 -ms-transition: transform 1s;  
