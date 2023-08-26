@@ -456,8 +456,9 @@ input.form-control {
 @media (max-width: 992px) {
   .photo::after {
     font-size: 14px; /* Размер текста */
-    padding: 6px; /* Поля вокруг текста */
+    padding: 12px; /* Поля вокруг текста */
     margin-bottom: 20px;
+    height: 70%;
   }
 }
 
@@ -465,7 +466,7 @@ input.form-control {
   .photo::after {
     font-size: 12px; /* Размер текста */
     padding: 4px; /* Поля вокруг текста */
-    margin-bottom: 15px;
+    margin-bottom: 14px;
     margin-left: 5px;
     margin-right: 5px;
   }
@@ -551,5 +552,7 @@ input.form-control {
 
   .photo::after {
     font-size: 18px; /* Размер текста */
+    height: 40%;
+    padding: 10px;
   }
 }
