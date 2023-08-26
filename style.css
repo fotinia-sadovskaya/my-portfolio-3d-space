@@ -8,6 +8,10 @@
   --default-font-family: "Roboto", sans-serif;
 }
 
+html{
+   scroll-behavior: smooth;
+}
+
 body {
   /* background-image: url("images/steampunkShip.png");
   background-size: cover;
