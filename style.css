@@ -550,5 +550,5 @@ input.form-control {
   }
 
   .photo::after {
-    font-size: 16px; /* Размер текста */
+    font-size: 18px; /* Размер текста */
 }
