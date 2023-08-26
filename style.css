@@ -549,10 +549,10 @@ input.form-control {
     font-size: 18px;
   }
 
-  .photo::after {
+  /* .photo::after {
     font-size: 18px; /* Размер текста */
     padding: 20px; /* Поля вокруг текста */
     margin: 40px 20px 30px 20px;
     height: 40%;
-  }
+  } */
 }
