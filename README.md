@@ -1,1 +1,1 @@
-🔗 Live demo: https://3d-space-by-svitlana-voronko.netlify.app/about
+🔗 Live demo: https://3d-space-by-svitlana-voronko.netlify.app
